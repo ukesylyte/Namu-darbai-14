@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gulp template</title>
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+  
+  <h1>Nykstančiai paukščiai Lietuvoje</h1>
+  <button onclick="showTab(event, 'kukutis')">Kukutis</button>
+  <button onclick="showTab(event, 'zalvarnis')">Žalvarnis</button>
+  <button onclick="showTab(event, 'peleda')">Uralinė pelėda</button>
+
+  <div class="tabs">
+      <div id="kukutis" class="tab">
+          <img src="app/content/img-1.jpg" alt="Kukutis">
+          <p>Kukutis yra gana plačiai Lietuvoje paplitęs paukštis, tačiau dažniausiai gamtoje aptinkamos tik pavienės jų poros. Nykstant senoms sodyboms su joms būdingais ilgaamžiais medžiais, senus medžius iškertant pakelėse, pamiškėse ir palaukėse, atsiranda kukučiams veistis reikalingų uoksų trūkumas. Kol kas nebuvo įgyvendinta jokių plataus masto gamtosauginių akcijų šiai rūšiai išsaugoti – kukučiams tinkami inkilai buvo keliami pavienėse sodybose. Jų kėlimas šalies mastu galėtų reikšmingai pagerinti kukučių apsaugos būklę.</p>
+          <a href="https://lt.wikipedia.org/wiki/Kukutis" class="info">Daugiau informacijos čia..</a>
+      </div>
+      <div id="zalvarnis" class="tab">
+          <img src="app/content/img-2.jpg" alt="Žalvarnis">
+          <p>
+            Žalvarnis yra ypač sparčiai nykstanti paukščių rūšis ne tik Lietuvoje, bet ir visoje Centrinėje Europoje, jis taip pat įtrauktas ir į globaliai nykstančių paukščių sąrašus. Šią rūšį saugo Lietuvos raudonoji knyga (LRK) ir Europos Sąjungos Paukščių direktyva. Latvijoje keliant rūšies veisimuisi būtinus inkilus žalvarnių nykimą pavyko sustabdyti. Latvijos ornitologų taikoma praktika nulėmė, kad Latvija tapo vienintele šalimi Vakarų ir Centrinėje Europoje, kur žalvarnių perinti populiacija gausėja.</p>
+            <a href="https://lt.wikipedia.org/wiki/Europinis_%C5%BEalvarnis" class="info">Daugiau informacijos čia..</a>
+      </div>
+      <div id="peleda" class="tab">
+          <img src="app/content/img-3.jpg" alt="Pelėda">
+          <p>Uralinė pelėda – palyginti sėsli paukščių rūšis, perinti didesnių miškų masyvų medynuose. Šios paukščių rūšies paplitimas išties ribotas – ji sutinkama tik šiaurės ir rytų Lietuvos derlingų miškų masyvuose, pavyzdžiui, Adutiškio- Guntauninkų miškuose (Ignalinos, Švenčionių r.), Suvainiškio miškuose (Rokiškio r.) ir Biržų girioje. Šiuose miškuose jau buvo iškelta keliasdešimt inkilų, dėl kurių, Lietuvos ornitologų draugijos duomenimis, vietinės populiacijos gausa šiek tiek išaugo. Jų neužtenka, norint išsaugoti uralinės pelėdos populiaciją tolimesniam rūšies plitimui, todėl minėtose giriose būtina kelti daugiau inkilų.</p>
+          <a href="https://lt.wikipedia.org/wiki/Uralin%C4%97_pel%C4%97da" class="info">Daugiau informacijos čia..</a>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</body>
+</html>

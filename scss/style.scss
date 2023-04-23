@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: url("../content/img-4.jpg");
+  background-size: cover;
+  color: white;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
+}
+h1 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  background: #ffffff45;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 4px 4px 5px #ffffff45;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  border-radius:5px;
+  margin-right: 5px;
+  
+}
+
+button:hover {
+  cursor: pointer;
+  background: #853b1f;
+  font-size:22px;
+}
+
+button.selected {
+  background: #853b1f;
+}
+
+.tabs {
+  max-width: 650px;
+  margin-left: auto;
+  text-align: left;
+  display: flex;
+  padding:10px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc ;
+
+}
+.tab {
+  display: none;
+  &:hover:after{
+    background-color:#ffffff45;
+  }
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  transition: transform 0.3s;
+
+}
+.tab img {
+  border-radius: 10px; 
+  transition: all 0.3s ease-in-out;
+}
+
+.tab:hover img {
+  transform: rotate(5deg); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+p:hover {
+  background-color: #ffffff45;
+
+}
+.info{
+  padding:10px;
+  color: white;
+  border: 1px solid white;
+  border-radius:5px;
+  background: #ffffff45;
+  box-shadow: 4px 4px 5px  #ffffff45;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: 0.3s;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+.info:hover {
+  cursor: pointer;
+  background: #853b1f;
+  font-size:22px;
+}
